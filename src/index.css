@@ -47,3 +47,11 @@ iframe {
   width: 600px;
   height: 350px;
 }
+
+.about-container {
+  height: calc(100vh - 202px)
+}
+
+.about-container p {
+  font-size: 1.5rem;
+}
