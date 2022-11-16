@@ -18,7 +18,7 @@ function Category() {
 
     return (
         <>
-            <button onClick={() => navigate('/')} className="btn">Go back</button>
+            <button onClick={() => navigate('/')} className="btn #9e9e9e grey">Go back</button>
             {!meals.length ? <Preloader /> :<MealList meals={meals}/>}
         </>
     )

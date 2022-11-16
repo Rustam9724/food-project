@@ -58,7 +58,7 @@ function Recipe() {
                     ) : null}
                 </div>
             )}
-            <button className="btn" onClick={() => navigate(`/category/${recipe.strCategory}`)}>Go back</button>
+            <button className="btn #9e9e9e grey" onClick={() => navigate(`/category/${recipe.strCategory}`)}>Go back</button>
         </div>
     )
 }
