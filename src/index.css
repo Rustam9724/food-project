@@ -55,3 +55,7 @@ iframe {
 .about-container p {
   font-size: 1.5rem;
 }
+
+.contacts {
+  min-height: calc(100vh - 187px);
+}
